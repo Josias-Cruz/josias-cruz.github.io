@@ -28,6 +28,11 @@ body{
     background-image: url("/media/background/paisley.jpg");
 }
 
+.center-container{
+    bacground-color: white;
+    align-content: center;
+}
+
 p{
     color: white;
 }
