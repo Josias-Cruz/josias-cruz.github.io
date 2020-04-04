@@ -29,8 +29,8 @@ body{
 }
 
 .center-container{
-    bacground-color: white;
-    margin: auto;
+    bacground-color: white !important;
+    margin: auto !important;
 }
 
 p{
