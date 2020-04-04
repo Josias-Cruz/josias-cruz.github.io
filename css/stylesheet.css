@@ -30,7 +30,7 @@ body{
 
 .center-container{
     bacground-color: white;
-    align-content: center;
+    margin: auto;
 }
 
 p{
