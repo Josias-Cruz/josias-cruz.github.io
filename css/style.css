@@ -9,7 +9,7 @@
     background-color: white;
 }
 body{
-    background-image: url("/resources/images/paisley-background.jpeg");
+    background-image: url("resources/images/paisley-background.jpeg");
 }
 
 p{
