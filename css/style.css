@@ -1,4 +1,11 @@
-
+.left .right{
+    width: 420px;
+    height:120;
+    border-width: 2px;
+    border-style:solid;
+    border-color:red;
+    background: #CCC;
+}
 
 .profile-picture {
     border-radius: 50%;
