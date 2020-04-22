@@ -1,19 +1,63 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0
+    font-family: 'Open Sans', sans-serif;
 }
 
-.content{
-    background-color: white;
-}
-body{
-    background-image: url("/resources/images/paisley.jpg");
-    background-color: blanchedalmond;
-    background-size: cover;
+.wrapper {
+    background-color: lightpink;
+
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
 }
 
-p{
-    color: black;
+.left, .right {
+    background-color: lightblue;
+
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+}
+.soc-med-links {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.soc-med-links li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.soc-med-links a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.soc-med-links   a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
