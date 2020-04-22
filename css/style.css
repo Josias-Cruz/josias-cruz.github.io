@@ -1,4 +1,14 @@
-.left .right{
+.left{
+    position: left;
+    width: 420px;
+    height:120;
+    border-width: 2px;
+    border-style:solid;
+    border-color:red;
+    background: #CCC;
+}
+.right{
+    position: right;
     width: 420px;
     height:120;
     border-width: 2px;
