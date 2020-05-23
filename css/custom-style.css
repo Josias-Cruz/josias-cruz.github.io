@@ -3,6 +3,7 @@
 }
 body{
 	background-image: url('../resources/images/paisley.jpg');
+	background-repeat: no-repeat;
 }
 .main-content{
 	background-color: white;
