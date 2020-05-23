@@ -1,6 +1,9 @@
 .bs-linebreak{
   height: 15px; 
 }
-.main-content{
+body{
 	background-image: url('../resources/images/paisley.jpg');
+}
+.main-content{
+	background-color: white;
 }
