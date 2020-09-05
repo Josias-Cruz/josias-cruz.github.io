@@ -1,6 +1,18 @@
+/*Layout Adjustments*/
 .bs-linebreak{
   height: 15px;
 }
+
+/*Color Schemes*/
 .main-content{
 	background-color: white;
+}
+
+/*Font Stylings*/
+h1{
+  font-family: Rubik;
+}
+p{
+  font-family: Railway;
+  font-size: 18px;
 }
